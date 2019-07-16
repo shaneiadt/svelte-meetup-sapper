@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "meetup-app-ssr-with-sapper",
+  "description": "Meetup App built using Sapper & Svelte",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
