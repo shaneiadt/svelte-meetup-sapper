@@ -76,7 +76,6 @@
   }
 
   function startEdit(event) {
-    console.log('CAPTURED')
     editMode = "edit";
     editedId = event.detail;
   }
@@ -129,7 +128,6 @@
   {#if filteredMeetups.length === 0}
     <p id="no-meetups">No meetups found, start adding some.</p>
   {/if}
-
   <section id="meetups">
     {#each filteredMeetups as meetup (meetup.id)}
       <div transition:scale animate:flip={{ duration: 300 }}>
