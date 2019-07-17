@@ -6,7 +6,7 @@
   import Modal from "../UI/Modal.svelte";
   import { isEmpty, isEmail } from "../../helpers/validation";
 
-  export let id = null;
+  export let id;
   let title = "",
     subtitle = "",
     description = "",
